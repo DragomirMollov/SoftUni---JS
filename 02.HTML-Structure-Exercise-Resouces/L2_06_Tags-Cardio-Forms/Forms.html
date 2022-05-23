@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Customer Details</legend>
+            <div>
+                <p>
+                    <label for="First Name">First Name</label>
+                    <input autofocus type="text" id="First Name" placeholder="George">
+                </p>
+            </div>
+            <div>
+                <p>
+                    <label for="Last Name">Last Name</label>
+                    <input type="text" id="Last Name" placeholder="Devis">
+                </p>
+            </div>
+            <div>
+                <p>
+                    <label for="Male">Male</label>
+                    <input id="Male" type="radio" name="Gender">
+                    <label for="Female">Female</label>
+                    <input id="Female" type="radio" name="Gender">
+                    <label for="Other">Other</label>
+                    <input id="Other" type="radio" name="Gender">
+                </p>
+            </div>
+            <div>
+                <p>
+                    <span>Preferred contact method:</span>
+                    <label for="Email">Email</label>
+                    <input id="Email" type="radio" name="contact">
+                    <label for="Phone">Phone</label>
+                    <input id="Phone" type="radio" name="contact">
+                </p>
+            </div>
+            <div>
+                <p>
+                    <label for="Email">Email</label>
+                    <input id="Email" type="email" placeholder="your@email.com">
+                </p>
+            </div>
+            <div>
+                <p>
+                    <label for="Phone">Phone</label>
+                    <input id="Phone" type="tel"  placeholder="+359885236225">
+                </p>
+            </div>
+            <div>
+                <p>
+                    <label for="Town">Town</label>
+                    <select name="Town" id="Town">
+                        <option value="Varna">Varna</option>
+                        <option value="Plovdiv">Plovdie</option>
+                        <option value="Burgas">Burgas</option>
+                        <option value="Sofiq">Sofiq</option>
+                        <option value="Pleven">Pleven</option>
+                    </select>
+                </p>
+            </div>
+            <div>
+                <P>
+                    <label for="Age">Age</label>
+                    <input type="number" min="18" max="70">
+                </P>
+            </div>
+            <div>
+                <p>
+                    <label for="language">Programming language</label>
+                    <input list="languages" name="language" id="language">
+                        <datalist id="languages">
+                            <option value="Java">Java</option>
+                            <option value="PHP">PHP</option>
+                            <option value="C#">C#</option>
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="Python">Python</option>
+                            <option value="Ruby">Ruby</option>
+                            <option value="Other">Other</option>
+                        </datalist>
+                    
+                </p>
+            </div>
+            <div>
+                <p>
+                    <textarea name="information" cols="20" rows="5" placeholder="More information..."></textarea>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <input id="terms-and-condition" type="checkbox" checked>
+                    <label for="tel">I agree the Terms and Conditions</label>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <label for="">
+                        <input type="submit" value="Send">
+                    </label>
+                </p>
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>

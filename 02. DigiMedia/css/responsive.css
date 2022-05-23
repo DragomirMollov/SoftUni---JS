@@ -1,0 +1,57 @@
+@media all and (max-width: 600px) {
+    .hero img {
+        display: none;
+    }
+    .navbar {
+        justify-content: center;
+        padding: 20px 0 0;
+    }
+
+    .hero h1 {
+        margin-top: 60px;
+        text-align: center;
+        font-size: 4rem;
+    }
+    .hero p {
+        text-align: center;
+    }
+
+    .hero-btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+    
+    .hero-btns a:first-child {
+        width: 100%;
+        max-width: 250px;
+        text-align: center;
+    }
+
+    .about {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .about h5 {
+        margin-top: 70px;
+    }
+
+    .contact h5 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .contact-btn {
+        display: none;
+    }
+
+    .contact-nav li {
+        display: block;
+    }
+}
