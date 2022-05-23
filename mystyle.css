@@ -1,0 +1,38 @@
+/*body {
+    background: red;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bold;
+    color: aquamarine;
+}*/
+/* "#" for id */
+#title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bold;
+    color: blue;
+}
+/* "." for class */
+/*.title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bolder;
+    color: cyan;
+}*/
+/* combinstion - name + id/class */
+h1#title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 15px;
+    color: darkorange;
+}
+button.btn:hover{
+    background: darkslateblue;
+    border: 1px solid black;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+}
