@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="logo.ping">
+            <ul>
+                <li>
+                    <a href="#">Out story</a>
+                </li>
+                <li>
+                    <a href="#">Membership</a>
+                </li>
+                <li>
+                    <a href="#">Write</a>
+                </li>
+                <li>
+                    <button>Get Started</button>
+                </li>
+            </ul>
+        </nav>
+        <h1>Medium is a place to write, read, adn connect</h1>
+        <h2>It's easy and free to post your thinking on any topic and connect with millions of readers</h2>
+        <button>Start writing</button>
+
+    </header>
+    <main>
+        <section>
+            <article>
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToUS82iQK12BirjePRcpBO-rtyceGSjNY2dA&usqp=CAU"
+                        alt="">
+                    <figcaption>
+
+                    </figcaption>
+                </figure>
+
+                <details>
+                    <summary>Some details</summary>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit pariatur nesciunt, enim ducimus
+                        sint neque assumenda corrupti laborum itaque reiciendis maxime fugiat distinctio, architecto
+                        asperiores reprehenderit, dolore facere velit necessitatibus?
+
+                        <time>10:00-17:00</time>
+                    <address>
+                        <a href="mailto:university@softuni.bg">bul. Bulgaria, Sofia</a>
+
+                    </address>
+                    </p>
+                </details>
+            </article>
+        </section>
+
+        <!-- First name - text -->
+        <!-- First name - text -->
+        <!-- Emsil- email -->
+        <!-- Submit button - button -->
+        <section style="width: 50%; float: left;">
+            <h1>Contact us</h1>
+            <form>
+                <!-- <label for=" first name">First name:</label>/* първи пример 
+                <input type="text" id="firts name"> -->
+                <label>
+                    <p>First name:</p> <!-- втори пример  -->
+                    <input required autofocus type="text">
+                </label>
+                <label>
+                    <p>Last name:</p> <!-- <input disabled type="text"> -->
+                    <input type="text"> <!--  може и readonly  вместо disable -->
+                </label>
+                <label>
+                    <p>Your age:</p>
+                    <input type="number" min="12" max="120" placeholder="Please write your age">
+                </label>
+                <label>
+                    <p>Password:</p>
+                    <input type="password">
+                </label>
+                <label for="gender">
+                    <br>
+                    <br>
+                    <input type="radio" name="gender" value="Male">
+                    <span>Male</span>
+                    <input type="radio" name="gender" value="Female">
+                    <span>Female</span>
+                </label>
+                <label for="job">
+                    <h2>What is your job</h2>
+                    <input type="checkbox" value="Dev">
+                    <span>Dev</span>
+                    <input type="checkbox" value="Dev">
+                    <span>Manager</span>
+                    <input type="checkbox" value="Writer">
+                    <span>Writer</span>
+                </label>
+                <label>
+                    <p>Email:</p>
+                    <input type="email">
+                </label>
+                <label>
+                    <p>Your salary:</p>
+                    <input type="range">
+                </label>
+                <label>
+                    <p>Your CV:</p>
+                    <input type="file">
+                </label>
+                <label for="cars">
+                    <select name="cars" id="cars">
+                        <option value="Mercedes">Mercedes</option>
+                        <option value="Audi">Audi</option>
+                        <option value="BMW">BMW</option>
+                        <option value="Toyota">Toyota</option>
+                    </select>
+                </label>
+                <label for="message">
+                    <p>Your message</p>
+                    <textarea name="message" 
+                    id="message" 
+                    cols="30" 
+                    rows="10">
+                    </textarea>
+                </label>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">    <!-- може и без value -->
+            </form>
+        </section>
+       
+       
+        <aside style="width: 50%; float: right;padding-top: 35px;">
+            <form>
+                <fieldset>
+                    <legend>Customrt Details</legend>
+                    <input type="text" name="fName">
+                    <input type="text" name="lName">
+                </fieldset>
+                <fieldset>
+                    <legend>Order Details</legend>
+                    <input type="text" name="quantity">
+                    <textarea name="remarks"></textarea>
+                </fieldset>
+            </form>
+        </aside>
+
+        
+    </main>
+
+</body>
+
+</html>
