@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+body {
+    font-family: Raleway;
+    margin: 0;
+    padding: 30px;
+    
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+header {
+    background: #efefef;
+    margin-bottom: 25px;
+}
+
+.header-menu {
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+.header-title {
+    font-size: 56px;
+}
+
+.header-title span {
+    font-weight: normal;
+    color: #818181;
+}
+
+.header-content {
+    width: 50%;
+    padding: 60px 80px;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-menu span {
+    margin-right: 10px;
+}
+
+.header-wrapper {
+    display: flex
+}
+
+.header-img {
+   max-width: 1500px;
+}
+
+.header-img img {
+    width: 100%;
+}
+
+.header-text {
+    font-style: italic;
+    color: #242424;
+    position: relative;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+}
+
+.header-text::after {
+    content: '';
+    height: 80px;
+    background: black;
+    width: 1px;
+    position: absolute;
+    bottom: -125px;
+    left: 0px;
+}
+
+.section-gray {
+    background-color: #efefef;
+    padding: 40px;
+}
+.section-my-name {
+    display: flex;
+}
+
+.section-my-name .section-title{ 
+    font-size: 56px;
+    position: relative;
+    margin-bottom: 30px;
+    max-width: 655px;
+    margin: 0 auto 40px;
+}
+.section-my-name .section-title:before{ 
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -170px;
+    width: 80px;
+    height: 2px;
+    background: black;
+}
+
+
+.section-my-name .section-title strong {
+    font-weight: 700;
+}
+.section-my-name .section-text {
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.section-my-name .section-content {
+    padding-left: 30px;
+}
+.section-my-name .list-socials {
+    display: flex;
+    list-style-type: none;
+}
+
+.section-my-name .list-socials li + li {
+    margin-left: 15px;
+}
+.section-my-name .list-socials a {
+    display: inline-block;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    background: #909090;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.section-image-content {
+    padding-top: 25px;
+}
+
+.section-image-content img {
+    width: 100%;
+}
+
+.section-title span {
+    font-weight: 300;
+    color: #626262;
+}
+
+.section-featured {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    margin-top: 25px;
+}
+
+
+.section-featured .section-img {
+    max-width: 600px;
+}
+.section-featured .section-img img {
+    width: 100%;
+}
+
+.section-featured .section-title {
+    font-size: 56px;
+    margin-bottom: 50px;
+    font-weight: 300;
+    
+}
+.section-featured .section-subtitle {
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.5;
+    padding-right: 160px;
+    position: relative;
+}
+
+.section-featured .section-subtitle::after {
+    top: 100px;
+    left: 0;
+    content: '';
+    background: black;
+    width: 1px;
+    height: 65px;
+    position: absolute;
+}
+
+.section-thumbs {
+    margin-top: 25px;
+}
+
+.section-thumbs .section-images {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.section-images img {
+    width: 100%;
+}
+
+.section-thumbs .section-main-image {
+    position: relative;
+    display: block;
+    z-index: 100;
+}
+
+.section-thumbs .section-first-image {
+    left: calc(50% + 100px);
+}
+
+.section-thumbs .section-last-image {
+    right: calc(50% + 100px);
+}
+
+
+.section-thumbs .section-last-image,
+.section-thumbs .section-first-image {
+    position: absolute;
+    top: calc(50% - 133px);
+    max-width: 400px;
+}
+
+.section-form {
+    background: #efefef;
+}
+
+.section-form .section-title {
+    color: #767676;
+    margin-top: 25px;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 55px;
+    font-weight: lighter;
+}
+
+.section-form .section-title span {
+    font-weight: bold;
+    color: black;
+}
+.form-contact .form-control{
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #000;
+    background: transparent;
+}
+.form-contact .form-subject {
+    margin-left: 20px;
+}
+.form-contact .submit-button {
+    width: 100%;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    border: 0;
+    padding: 15px 30px;
+}
+
+.section-form .section-text {
+    text-align: center;
+    padding: 0 200px 20px;
+    font-style: italic;
+}
+.section-form .form-contact {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.section-form .form-controls {
+    display: flex;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0 10px;
+    font-size: 13px;
+}
