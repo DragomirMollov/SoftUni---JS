@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background: rgb(238, 238, 238);
+  margin: 40px 100px;
+}
+
+img {
+  background: rgb(255, 255, 255);
+  box-shadow: 1px 1px 12px 3px rgb(0, 0, 0, 0.25);
+}
+
+a {
+  color: rgb(0, 102, 0);
+}
+
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+.title-p {
+    font-size: 3.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    width: 70%;
+}
+
+.title {
+    border-bottom: 2px solid black;
+    margin-bottom: 50px;
+}
+
+.title-nav {
+    display: inline-block;
+    width: 28%;
+}
+
+.li-nav {
+    color: #3B6A47;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.first-img {
+    float: right;
+    margin: 0px 0px 7px 30px;
+}
+
+.second-img {
+    float: left;
+    margin-right: 30px;
+}
+
+blockquote {
+    float: right;
+    width: 40%;
+    border-left: 5px solid lightgrey;
+    padding-left: 40px;
+    margin-top: 0;
+}
+
+blockquote p {
+    text-align: right;
+}
+
+main {
+    display: inline-block;
+    width: 68%;
+}
+
+aside {
+    display: inline-block;
+    width: 28%;
+    vertical-align: top;
+    text-decoration: square;
+    padding-left: 65px;
+    text-decoration: none;
+
+}
+
+aside section li {
+    list-style: square;
+}
